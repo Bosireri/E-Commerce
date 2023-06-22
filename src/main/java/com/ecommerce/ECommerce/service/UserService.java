@@ -14,5 +14,6 @@ public class UserService {
         user.setUsername(registrationBody.getUsername());
         //TODO: Encrypt passwords!!
         user.setPassword(registrationBody.getPassword());
+
     }
 }
