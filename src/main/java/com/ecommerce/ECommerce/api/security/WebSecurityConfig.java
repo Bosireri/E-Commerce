@@ -9,6 +9,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class WebSecurityConfig {
 
+//Autowired, added by me
     @Autowired
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
