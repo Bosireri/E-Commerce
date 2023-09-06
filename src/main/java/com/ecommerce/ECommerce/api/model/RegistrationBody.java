@@ -6,7 +6,7 @@ public  class RegistrationBody {
 
     @NotNull
     @NotBlank
-    @Size (min=8, max=32)
+    @Size (min=6, max=32)
     private String username;
     @NotNull
     @NotBlank
