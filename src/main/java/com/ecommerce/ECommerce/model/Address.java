@@ -56,7 +56,7 @@ public class Address {
 
     /**
      * Gets the country.
-     * @return The country.
+     * @return the country.
      */
     public String getCountry() {
         return country;
@@ -72,7 +72,7 @@ public class Address {
 
     /**
      * Gets the city.
-     * @return The city.
+     * @return the city.
      */
     public String getCity() {
         return city;
